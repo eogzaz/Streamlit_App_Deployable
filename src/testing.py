@@ -4,8 +4,6 @@ import numpy as np
 import os
 from collections import defaultdict
 
-#print(csv_to_dict(data))
-
 yes = 'data/real_data.csv'
 new_data = []
 
