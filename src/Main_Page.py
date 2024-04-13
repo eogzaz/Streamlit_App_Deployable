@@ -33,7 +33,7 @@ st.write(' ')
 
 st.write('This in-depth website articulates the framework for a significant change in :red[human activity] overall, not only encompassing the central concept but also laying out the extensive :green[groundwork], :green[motivation], and :green[ideas] indispensable for its execution. This undertaking is propelled by a genuine motivation—to bridge the gaps in understanding :red[global emissions] and :orange[energy consumption], and to help the future of our :green[environment].')
 
-with open("animations/energy.json", "r") as f:
+with open("src/animations/energy.json", "r") as f:
     data = json.load(f)
 st_lottie(data)
 
@@ -43,7 +43,7 @@ st.write(' ')
 
 st.write('To actualize this educational initiative this interactive website is a user-centric platform designed to provide intuitive insights into :orange[energy use] and its ramifications on the environment, specifically :red[pollution]. At the core of this initiative lies a series of interactive maps, serving as an engaging interface to provide information about :orange[energy consumption], :red[pollution], and other :green[important data] or :green[literature] that is relevant to the argument. Powered by straightforward charts, graphs, and maps the website seeks to communicate its messages in a comprehensible and accessible manner.')
 
-with open("animations/learning.json", "r") as f:
+with open("src/animations/learning.json", "r") as f:
     data = json.load(f)
 st_lottie(data)
 
@@ -53,7 +53,7 @@ st.write(' ')
 
 st.write('This project also confronts a prevalent challenge -— the :red[lack of comprehension] surrounding the technologies ingrained in our daily lives. This interactive website stands as an :green[educational aid], unraveling the intricacies of these devices and :green[enhancing understanding] of their :red[environmental implications]. This project aligns with the imperative to debunk :red[misinformation] and dispel :red[false theories] circulating around :red[emissions] and :orange[energy]. In the wake of a significant shift towards :green[renewable energy], widespread awareness is of utmost importance, calling for a collective effort for change that spans across America, or preferably the world.')
 
-with open("animations/teamwork.json", "r") as f:
+with open("src/animations/teamwork.json", "r") as f:
     data = json.load(f)
 st_lottie(data)
 
@@ -63,7 +63,7 @@ st.write(' ')
 
 st.write('The narrative embraces the understanding that monumental shifts happen :green[incrementally]. Every small stride towards :green[acknowledging] and :green[addressing] the crisis contributes to the larger goal. Whether or not humans are the direct cause of climate change is meaningless in the face of the real :red[impacts of climate change] today, we must act on these to mitigate further change that could possibly be :red[irreversible].')
 
-with open("animations/climb.json", "r") as f:
+with open("src/animations/climb.json", "r") as f:
     data = json.load(f)
 st_lottie(data)
 
