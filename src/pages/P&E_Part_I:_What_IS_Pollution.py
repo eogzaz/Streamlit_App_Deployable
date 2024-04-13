@@ -1,7 +1,5 @@
 import json
 import streamlit as st
-import pandas as pd
-import requests
 from streamlit_lottie import st_lottie
 
 # Creating sidebar message to prompting user to choose a directory
