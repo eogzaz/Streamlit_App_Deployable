@@ -40,7 +40,7 @@ st.header(' ',divider='red')
 st.write('Air pollution is caused by the release of :red[pollutants] into the :green[atmosphere].')
 
 # Loading animation for air pollution
-st_lottie(load_lottie_file("animations/air.json"))
+st_lottie(load_lottie_file("src/animations/air.json"))
 
 # Air pollution information
 st.write('Sources of air pollution include :red[vehicle emissions], :red[industrial activities], :red[burning fossil fuels], and :red[large-scale agricultural practices].')
@@ -60,7 +60,7 @@ st.header(' ',divider='blue')
 st.write('Water pollution occurs when :blue[contaminants] are discharged into bodies of water, such as :green[rivers], :green[lakes], :green[oceans], and :green[groundwater].')
 
 # Loading animation for water pollution
-st_lottie(load_lottie_file("animations/water.json"))
+st_lottie(load_lottie_file("src/animations/water.json"))
 
 # Water pollution information
 st.write('Sources of water pollution include :blue[industrial waste], :blue[agricultural runoff], :blue[sewage discharge], :blue[oil spills], and :blue[littering].')
@@ -80,7 +80,7 @@ st.header(' ',divider='orange')
 st.write('Soil pollution refers to the presence of :orange[toxic chemicals], :orange[heavy metals], or other :orange[pollutants] in the :green[soil].')
 
 # Loading animation for soil pollution
-st_lottie(load_lottie_file("animations/soil.json"))
+st_lottie(load_lottie_file("src/animations/soil.json"))
 
 # Soil pollution information
 st.write(':orange[Industrial activities], :orange[improper waste disposal], :orange[mining operations], and the use of :orange[pesticides and fertilizers] contribute to soil contamination.')

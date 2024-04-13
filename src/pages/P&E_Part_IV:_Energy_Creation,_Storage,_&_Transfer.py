@@ -38,7 +38,7 @@ st.header(' ',divider='grey')
 # Basic energy info to setup the following page
 st.write(":blue[How is energy created?]")
 st.write(":orange[Energy] cannot be :blue[created] or :blue[destroyed], only :green[converted] between different forms, so there is no real way to 'make' :orange[energy]. However, being able to convert :orange[energy] into different forms proves to be very useful to our technology today, and there are many ways that it can be :blue[converted].")
-st_lottie(load_lottie_file('animations/battery.json'))
+st_lottie(load_lottie_file('src/animations/battery.json'))
 st.write("The different ways that we can convert :orange[energy] from one form to another are: :blue[chemical reactions], :blue[nuclear reactions], :blue[mechanical processes], :blue[thermal processes], :blue[geothermal energy], and :blue[renewable resources]. Each method has its advantages, limitations, and environmental impacts, highlighting the importance of adopting diverse and sustainable energy sources to meet global energy needs.")
 
 if st.checkbox(":grey[Click to view video on energy generation.]"):
@@ -51,7 +51,7 @@ st.write(' ')
 
 st.write(":blue[How is energy stored?]")
 st.write("The most common type of storage for :orange[energy] we know of today are :blue[batteries] and :blue[fuel cells]. Batteries are in essentially every piece technology we use, and they store their energy with chemicals such as :blue[lithium] that are able to release :orange[electrical energy] on command.")
-st_lottie(load_lottie_file('animations/powercell.json'))
+st_lottie(load_lottie_file('src/animations/powercell.json'))
 st.write("There are many other ways that :orange[energy] can be stored, using different energy types or materials altogether, but for the day-to-day lives that we live, :blue[batteries] are by far the most practical. There are other ways of storage that are mainly used in industrial processes such as: :blue[mechanical energy storage], :blue[electromagnetic energy storage], :blue[thermal energy storage], :blue[potential energy storage].")
 st.write("These are some of the common ways in which :orange[energy] can be :blue[stored] for various applications, including :blue[grid stabilization], :blue[renewable energy integration], :blue[transportation], and :blue[industrial processes]. Each storage method has its advantages, limitations, and suitability for specific applications and :orange[energy systems].")
 
@@ -62,10 +62,10 @@ st.header(' ',divider='grey')
 
 st.write(":blue[How is energy transferred?]")
 st.write(':orange[Energy] can be :green[transferred] from one source to another through various mechanisms, depending on the type of :orange[energy] and the :green[systems] involved.')
-st_lottie(load_lottie_file('animations/plug.json'))
+st_lottie(load_lottie_file('src/animations/plug.json'))
 st.write('One of the ways that :orange[energy] can be :green[transferred] from one source to another is through :green[mechanical energy transfer], which is found mainly in transmission systems that consists of :green[gears], :green[pulleys], :green[belts], or :green[shafts], much like you would find in the engine bay of a car.')
 st.write('Another way that :orange[energy] is :green[transferred] is through :green[electromagnetic energy transfer], and it comes in the form of :green[light], :green[radio waves], :green[microwaves], or :green[infrared light]. A way that we see this happen in everyday life is when :green[receivers] send out signals to antenna with :green[electromagnetic waves], and they get absorbed by the antenna.')
-st_lottie(load_lottie_file('animations/transfer.json'))
+st_lottie(load_lottie_file('src/animations/transfer.json'))
 st.write(':green[Thermal energy transfer] is one way of transferring :orange[energy] that we are likely all familiar with, whether for reasons good or bad. :green[Thermal energy] gets :green[transferred] through direct or indirect contact from what is usually :green[fire] to another source, like sitting around a campfire to stay warm and then roasting marshmallows in that campfire.')
 st.write(':green[Electrical energy transferring] is one of the most important ways that we know how to transfer :orange[energy], because it is used so frequently by the entire world. :green[Electrical charges] flow through :green[cords] and :green[wires] that deliver :green[electricity] for your needs, typically seen as :green[chargers] or :green[power cords] for devices.')
 st.write('The final way we transfer :orange[energy], arguably the most important for human life, is the process of :green[transferring chemical energy]. When bonds of :green[molecule]s are broken, it releases an enormous amount of :orange[energy] that can usually be harnessed by the heat it gives off. However, humans also use the process of :green[transferring chemical energ]y when we eat and digest food.')
