@@ -1,14 +1,15 @@
 import json
 import streamlit as st
-import streamlit_lottie as st_lottie
+import pandas as pd
+import requests
+from streamlit_lottie import st_lottie
 
-# Creating sidebar message to prompting user to choose a directory
-st.sidebar.success("Choose a page from directory above.")
-
-# Function to load Lottie File animations
+# Function to load animations
 def load_lottie_file(filepath: str):
     with open(filepath, 'r') as f:
         return json.load(f)
+
+st.sidebar.success("Choose a page from directory above.")
 
 # Linking all of the pages at the top of the page
 st.page_link('Main_Page.py', label="Home Page")
@@ -19,7 +20,7 @@ st.page_link('pages/P&E_Part_III:_What_IS_Energy.py', label="Page 4: P&E 3 - Wha
 st.page_link('pages/P&E_Part_IV:_Energy_Creation,_Storage,_&_Transfer.py', label="Page 5: P&E 4 - Energy Creation, Storage & Transfer")
 st.page_link('pages/P&E_Part_V:_Renewable_Energy.py', label="Page 6: P&E 5 - Renewable Energy")
 
-# Creating Main Page Title and adding the checkbox where videos on climate change are embedded
+# Creating Main Page Title and adding the checkbox where videos on climate change are embeddee
 st.header(' ',divider='grey')
 st.title(':blue[The Global Pollution-Energy Index:]')
 st.header(':blue[Global Pollution Visualized]')
