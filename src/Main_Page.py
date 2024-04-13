@@ -2,12 +2,13 @@ import json
 import streamlit as st
 import streamlit_lottie as st_lottie
 
+# Creating sidebar message to prompting user to choose a directory
+st.sidebar.success("Choose a page from directory above.")
+
 # Function to load Lottie File animations
 def load_lottie_file(filepath: str):
     with open(filepath, 'r') as f:
         return json.load(f)
-
-st.sidebar.success("Choose a page from directory above.")
 
 # Linking all of the pages at the top of the page
 st.page_link('Main_Page.py', label="Home Page")
@@ -33,7 +34,7 @@ st.write(' ')
 
 st.write('This in-depth website articulates the framework for a significant change in :red[human activity] overall, not only encompassing the central concept but also laying out the extensive :green[groundwork], :green[motivation], and :green[ideas] indispensable for its execution. This undertaking is propelled by a genuine motivation—to bridge the gaps in understanding :red[global emissions] and :orange[energy consumption], and to help the future of our :green[environment].')
 
-#st_lottie(load_lottie_file("src/animations/energy.json"))
+load_lottie_file("src/animations/energy.json")
 
 st.write('Those unfamiliar or just beginning to embark on the understanding of how :orange[energy] is :green[created], :green[transferred], and especially on how it :red[pollutes] would find this document as a perfect place to start learning. The overarching aim is to :green[cultivate awareness], rendering the broader population well-informed in the critical issues of our time. Specifically, my project endeavors to illuminate the significance of :green[renewable energy] for our collective future, in order to protect the environment against further :red[degradation]. This information will be arranged in a way that is engaging for users and that has the capacity to educate those who will be most affected by the :red[consequences] of :red[global emissions] and :red[climate change].')
 st.header(' ',divider='grey')
