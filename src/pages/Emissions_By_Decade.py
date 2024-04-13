@@ -127,7 +127,7 @@ if st.checkbox(':grey[Click to view map for 1810!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1820')
 if st.checkbox(':grey[Click to view map for 1820!]'):
-    temp_data = pd.read_csv('data/emissions_1820.csv')
+    temp_data = pd.read_csv('src/data/emissions_1820.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
