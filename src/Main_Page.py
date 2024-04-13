@@ -1,6 +1,6 @@
 import json
 import streamlit as st
-from streamlit_lottie import st_lottie
+from src import streamlit_lottie as st_lottie
 
 # Function to load animations
 def load_lottie_file(filepath: str):
