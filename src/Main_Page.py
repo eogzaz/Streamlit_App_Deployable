@@ -2,7 +2,7 @@ import json
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-# Function to load animations
+# Function to load animations 
 def load_lottie_file(filepath: str):
     with open(filepath, 'r') as f:
         return json.load(f)
