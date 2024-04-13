@@ -29,7 +29,7 @@ if st.checkbox(':grey[One year of Carbon emissions.]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1750')
 if st.checkbox(':grey[Click to view map for 1750!]'):
-    temp_data = pd.read_csv('data/emissions_1750.csv')
+    temp_data = pd.read_csv('src/data/emissions_1750.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -43,7 +43,7 @@ if st.checkbox(':grey[Click to view map for 1750!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1760')
 if st.checkbox(':grey[Click to view map for 1760!]'):
-    temp_data = pd.read_csv('data/emissions_1760.csv')
+    temp_data = pd.read_csv('src/data/emissions_1760.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -57,7 +57,7 @@ if st.checkbox(':grey[Click to view map for 1760!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1770')
 if st.checkbox(':grey[Click to view map for 1770!]'):
-    temp_data = pd.read_csv('data/emissions_1770.csv')
+    temp_data = pd.read_csv('src/data/emissions_1770.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -71,7 +71,7 @@ if st.checkbox(':grey[Click to view map for 1770!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1780')
 if st.checkbox(':grey[Click to view map for 1780!]'):
-    temp_data = pd.read_csv('data/emissions_1780.csv')
+    temp_data = pd.read_csv('src/data/emissions_1780.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -85,7 +85,7 @@ if st.checkbox(':grey[Click to view map for 1780!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1790')
 if st.checkbox(':grey[Click to view map for 1790!]'):
-    temp_data = pd.read_csv('data/emissions_1790.csv')
+    temp_data = pd.read_csv('src/data/emissions_1790.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -99,7 +99,7 @@ if st.checkbox(':grey[Click to view map for 1790!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1800')
 if st.checkbox(':grey[Click to view map for 1800!]'):
-    temp_data = pd.read_csv('data/emissions_1800.csv')
+    temp_data = pd.read_csv('src/data/emissions_1800.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -113,7 +113,7 @@ if st.checkbox(':grey[Click to view map for 1800!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1810')
 if st.checkbox(':grey[Click to view map for 1810!]'):
-    temp_data = pd.read_csv('data/emissions_1810.csv')
+    temp_data = pd.read_csv('src/data/emissions_1810.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -141,7 +141,7 @@ if st.checkbox(':grey[Click to view map for 1820!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1830')
 if st.checkbox(':grey[Click to view map for 1830!]'):
-    temp_data = pd.read_csv('data/emissions_1830.csv')
+    temp_data = pd.read_csv('src/data/emissions_1830.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -155,7 +155,7 @@ if st.checkbox(':grey[Click to view map for 1830!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1840')
 if st.checkbox(':grey[Click to view map for 1840!]'):
-    temp_data = pd.read_csv('data/emissions_1840.csv')
+    temp_data = pd.read_csv('src/data/emissions_1840.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -169,7 +169,7 @@ if st.checkbox(':grey[Click to view map for 1840!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1850')
 if st.checkbox(':grey[Click to view map for 1850!]'):
-    temp_data = pd.read_csv('data/emissions_1850.csv')
+    temp_data = pd.read_csv('src/data/emissions_1850.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -183,7 +183,7 @@ if st.checkbox(':grey[Click to view map for 1850!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1860')
 if st.checkbox(':grey[Click to view map for 1860!]'):
-    temp_data = pd.read_csv('data/emissions_1860.csv')
+    temp_data = pd.read_csv('src/data/emissions_1860.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -197,7 +197,7 @@ if st.checkbox(':grey[Click to view map for 1860!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1870')
 if st.checkbox(':grey[Click to view map for 1870!]'):
-    temp_data = pd.read_csv('data/emissions_1870.csv')
+    temp_data = pd.read_csv('src/data/emissions_1870.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -211,7 +211,7 @@ if st.checkbox(':grey[Click to view map for 1870!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1880')
 if st.checkbox(':grey[Click to view map for 1880!]'):
-    temp_data = pd.read_csv('data/emissions_1880.csv')
+    temp_data = pd.read_csv('src/data/emissions_1880.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -225,7 +225,7 @@ if st.checkbox(':grey[Click to view map for 1880!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1890')
 if st.checkbox(':grey[Click to view map for 1890!]'):
-    temp_data = pd.read_csv('data/emissions_1890.csv')
+    temp_data = pd.read_csv('src/data/emissions_1890.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -239,7 +239,7 @@ if st.checkbox(':grey[Click to view map for 1890!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1900')
 if st.checkbox(':grey[Click to view map for 1900!]'):
-    temp_data = pd.read_csv('data/emissions_1900.csv')
+    temp_data = pd.read_csv('src/data/emissions_1900.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -253,7 +253,7 @@ if st.checkbox(':grey[Click to view map for 1900!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1910')
 if st.checkbox(':grey[Click to view map for 1910!]'):
-    temp_data = pd.read_csv('data/emissions_1910.csv')
+    temp_data = pd.read_csv('src/data/emissions_1910.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -267,7 +267,7 @@ if st.checkbox(':grey[Click to view map for 1910!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1920')
 if st.checkbox(':grey[Click to view map for 1920!]'):
-    temp_data = pd.read_csv('data/emissions_1920.csv')
+    temp_data = pd.read_csv('src/data/emissions_1920.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -281,7 +281,7 @@ if st.checkbox(':grey[Click to view map for 1920!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1930')
 if st.checkbox(':grey[Click to view map for 1930!]'):
-    temp_data = pd.read_csv('data/emissions_1930.csv')
+    temp_data = pd.read_csv('src/data/emissions_1930.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -295,7 +295,7 @@ if st.checkbox(':grey[Click to view map for 1930!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1940')
 if st.checkbox(':grey[Click to view map for 1940!]'):
-    temp_data = pd.read_csv('data/emissions_1940.csv')
+    temp_data = pd.read_csv('src/data/emissions_1940.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -309,7 +309,7 @@ if st.checkbox(':grey[Click to view map for 1940!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1950')
 if st.checkbox(':grey[Click to view map for 1950!]'):
-    temp_data = pd.read_csv('data/emissions_1950.csv')
+    temp_data = pd.read_csv('src/data/emissions_1950.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -323,7 +323,7 @@ if st.checkbox(':grey[Click to view map for 1950!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1960')
 if st.checkbox(':grey[Click to view map for 1960!]'):
-    temp_data = pd.read_csv('data/emissions_1960.csv')
+    temp_data = pd.read_csv('src/data/emissions_1960.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -337,7 +337,7 @@ if st.checkbox(':grey[Click to view map for 1960!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1970')
 if st.checkbox(':grey[Click to view map for 1970!]'):
-    temp_data = pd.read_csv('data/emissions_1970.csv')
+    temp_data = pd.read_csv('src/data/emissions_1970.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -351,7 +351,7 @@ if st.checkbox(':grey[Click to view map for 1970!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1980')
 if st.checkbox(':grey[Click to view map for 1980!]'):
-    temp_data = pd.read_csv('data/emissions_1980.csv')
+    temp_data = pd.read_csv('src/data/emissions_1980.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -365,7 +365,7 @@ if st.checkbox(':grey[Click to view map for 1980!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 1990')
 if st.checkbox(':grey[Click to view map for 1990!]'):
-    temp_data = pd.read_csv('data/emissions_1990.csv')
+    temp_data = pd.read_csv('src/data/emissions_1990.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -379,7 +379,7 @@ if st.checkbox(':grey[Click to view map for 1990!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 2000')
 if st.checkbox(':grey[Click to view map for 2000!]'):
-    temp_data = pd.read_csv('data/emissions_2000.csv')
+    temp_data = pd.read_csv('src/data/emissions_2000.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -393,7 +393,7 @@ if st.checkbox(':grey[Click to view map for 2000!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 2010')
 if st.checkbox(':grey[Click to view map for 2010!]'):
-    temp_data = pd.read_csv('data/emissions_2010.csv')
+    temp_data = pd.read_csv('src/data/emissions_2010.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
@@ -407,7 +407,7 @@ if st.checkbox(':grey[Click to view map for 2010!]'):
 st.header(' ',divider='grey')
 st.header('Map of emissions in the year 2020')
 if st.checkbox(':grey[Click to view map for 2020!]'):
-    temp_data = pd.read_csv('data/emissions_2020.csv')
+    temp_data = pd.read_csv('src/data/emissions_2020.csv')
     map_data = pd.DataFrame({
         "Emissions": temp_data['Emissions'] / 1000,
         "LAT": temp_data['LAT'],
