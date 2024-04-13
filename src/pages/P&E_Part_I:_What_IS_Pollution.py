@@ -39,7 +39,7 @@ st.header(' ',divider='grey')
 st.write(":red[Pollution] occurs when harmful substances are introduced into the :green[environment], causing adverse effects on :green[living organisms] and :green[ecosystems]. There are many forms of :red[pollution], and many different ways that these :red[pollutants] can be formed from natural processes to human industrialization.")
 
 # Loading animation of nature dying
-st_lottie(load_lottie_file("animations/killing_nature.json"))
+st_lottie(load_lottie_file("src/animations/killing_nature.json"))
 st.write(":red[Pollution] not only causes :red[respiratory harm] to :green[humans] and :green[animals], but also causes the :green[climate] to warm, :red[changing] entire :green[ecosystems] of a region. If the issues persist, a lot of the :red[changes] that come to the world will be irreversible, causing more domino effects of world degredation.")
 
 # Divider
@@ -48,7 +48,7 @@ st.subheader(' ', divider='grey')
 st.write("These :red[pollutants] can be in the form of :green[solid], :green[liquid], or :green[gas], and they often result from human activities such as :red[industrial processes], :red[transportation], :red[agriculture], and :red[waste disposal].")
 
 # Loading animation of industrial plant
-st_lottie(load_lottie_file("animations/emissions.json"))
+st_lottie(load_lottie_file("src/animations/emissions.json"))
 st.write(":red[Pollutants] are harmful substances released into the :green[environment] that can have severe effects on :green[ecosystems], :green[wildlife], and :green[human health]. They form through various natural and human activities, contributing to :red[air], :red[water], and :red[soil pollution].")
 
 # Divider
@@ -57,7 +57,7 @@ st.header(' ',divider='grey')
 st.write("Some common pollutants include :red[carbon dioxide (]:grey[CO2]:red[)], :red[sulfur dioxide (]:grey[SO2]:red[)], :red[nitrogen dioxide (]:grey[NO2]:red[)], :red[particulate matter (]:grey[PM]:red[)], :red[ozone (]:grey[O3]:red[)], :red[heavy metals], and various :red[chemical compounds].")
 
 # Loading animation of the world
-st_lottie(load_lottie_file("animations/climate_change.json"))
+st_lottie(load_lottie_file("src/animations/climate_change.json"))
 
 st.write(":red[Pollution] is extremely harmful to the :green[environment], and everything that lives in it. From the :red[disease] that comes with breathing in the :red[polluted air] to the broader term of :red[climate change], pollution has extreme adverse effects on the :green[ecosystem], and ramififcations must be made before the changes become :red[irreversible].")
 st.header(' ',divider='grey')
