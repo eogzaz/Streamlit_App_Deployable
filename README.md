@@ -4,7 +4,7 @@ This repository contains the necessary information and work for the 2024 spring 
 
 In this repository, you will find the abstract.md which houses the abstract of the project, the thesis.md which holds the thesis of a 7500 word minnimum, and also the README.md, this file, explaining how to use this project.
 
-Additionally, in order to view the web version of this project, click the link [here].(https://global-pollution-energy-index.streamlit.app/)
+Additionally, in order to view the web version of this project, click the link [here.](https://global-pollution-energy-index.streamlit.app/)
 
 You should see a home screen that looks like this:
 
