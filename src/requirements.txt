@@ -1,0 +1,14 @@
+numpy
+pandas
+geopandas
+eccodes
+scipy
+xarray --no-binary=xarray
+netcdf4 --no-binary=netcdf4
+shapely --no-binary=shapely
+cartopy --no-binary=cartopy
+pyshp
+pyproj
+matplotlib
+plotly
+streamlit
