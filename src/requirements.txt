@@ -1,1 +1,1 @@
-strealit-lottie
+strealit_lottie
