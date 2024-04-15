@@ -2,7 +2,7 @@ import json
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-# Creating sidebar message to prompting user to choose a directory
+# Creating sidebar message to prompting user to choose a directory 
 st.sidebar.success("Choose a page from directory above.")
 
 # Function to load Lottie File animations
