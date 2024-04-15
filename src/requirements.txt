@@ -1,3 +1,3 @@
-streamlit>=0.69
-strealit-lottie>=0.0.5
+streamlit
+strealit-lottie
 json
