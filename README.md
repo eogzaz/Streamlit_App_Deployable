@@ -2,8 +2,6 @@
 
 This repository contains the necessary information and work for the 2024 spring semester Senior Thesis of Anthony Vazquez for the Allegheny College Integrative Informatics Department. 
 
-To view the web version of this project, click [here.](https://global-pollution-energy-index.streamlit.app/)
-
 Additionally, in order to view the web version of this project, click the link [here.](https://global-pollution-energy-index.streamlit.app/)
 
 You should see a home screen that looks like this:
